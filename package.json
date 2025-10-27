@@ -7,6 +7,7 @@
     "start": "node index.js", 
     "start1": "node index1.js", 
     "start2": "node index2.js", 
+    "start3": "node index3.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
