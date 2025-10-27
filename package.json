@@ -10,6 +10,7 @@
     "start3": "node index3.js", 
     "start4": "node index4.js", 
     "start5": "node index5.js", 
+    "start6": "node index6.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
