@@ -24,15 +24,18 @@ console.log("Tarefa adicionada:" +tarefas[2]);
 //   - Se estiver, mostre uma mensagem dizendo que não há tarefas
 //   - Se tiver tarefas, percorra o array e exiba cada uma numerada
 
-/*function listarTarefas(tarefas){
-    if(tarefas == 0){ 
-        console.log("Tarefa Vazia!")
-    }else if (tarefas == "Lavar"){
+function listarTarefas(){
+    console.log("Suas tarefas atuais:");
+
+    if(tarefas.length == 0){ 
+        console.log("Nenhuma tarefa")
+    }else {
         console.log("Tarefa Iniciada")
 
     }
 }
-listarTarefas(tarefas);*/
+
+listarTarefas();
 
 
 // 4️⃣ Crie uma função para remover uma tarefa
@@ -42,7 +45,7 @@ listarTarefas(tarefas);*/
 // - Caso contrário, mostre uma mensagem de erro
 
 
-function removerTarefa(nomeTarefa){
+/*function removerTarefa(nomeTarefa){
     const indice = tarefas.indexOf(nomeTarefa);
     tarefas.splice(indice, 1);
     console.log(`Remover tarefa ${indice}.`)
